@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+.product_container img {
+    width: 70%;
+}
+
+.product_container h2 {
+    font-size: 1rem;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.product_container h4 {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    letter-spacing: 2px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.product_container {
+    margin-top: 7.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5rem;
+}
+
+.card_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_main .btn {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
