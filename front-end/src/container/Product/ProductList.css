@@ -18,10 +18,17 @@
 }
 
 .product_container {
-    margin-top: 7.5rem;
+    margin-top: 3.5rem;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1.5rem;
+}
+
+.product__title {
+    margin-top: 10%;
+    position: relative;
+    text-align: center;
+    font-size: 4rem;
 }
 
 .card_main {
@@ -35,3 +42,17 @@
     font-weight: bold;
     font-size: 0.9rem;
 }
+
+@media screen and (max-width:1411px) {
+    .card_main h2 {
+        font-size: 0.75rem ;
+    }
+}
+
+@media screen and (max-width:1285px) {
+    .card_main h2{
+        font-size: 0.6rem ;
+    }
+}
+
+

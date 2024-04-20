@@ -6,6 +6,8 @@ import "./ProductList.css"
 
 const ProductList = () => {
     return (
+        <>
+        <h1 className="product__title">Sneakers</h1>
         <div className="container product_container">
             {dataProduct.map((product) => (
                 <Card key={product.id} className="">
@@ -13,6 +15,7 @@ const ProductList = () => {
                 </Card>
             ))}
         </div>
+            </>
     )
 }
 

@@ -48,12 +48,12 @@ const dataProduct = [
         productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Dark-Marina-Blue-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1644311937&q=57",
         payment: "$200"
     },
-    {
-        id: 9,
-        name: "Nike Dunk Low Gorge Green",
-        productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Gorge-Green-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1671023702&q=57",
-        payment: "$72"
-    },
+    // {
+    //     id: 9,
+    //     name: "Nike Dunk Low Gorge Green",
+    //     productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Gorge-Green-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1671023702&q=57",
+    //     payment: "$72"
+    // },
 
    
 ]

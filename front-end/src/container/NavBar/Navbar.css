@@ -1,15 +1,9 @@
 
-.nav {
-    width: 100vw;
-    display: grid;
-    place-items: center;
+.navbar {
     background: var(--color-primary);
     position: fixed;
     top: 0;
-    left: 0;
     z-index: 9;
-    box-shadow: 0 1rem 1.5rem hsla(var(--color-black), 68%,42%,20%);
-    
 } 
 
 /* nav {
@@ -26,8 +20,8 @@
     background: var(--color-primary);
 } */
 
-.nav img {
-    width: 30%;
+.nav__logo img {
+    width: 35%;
 }
 
 .nav__container {
@@ -47,19 +41,78 @@
     gap: 1rem;
     justify-content: flex-end;
 } 
+.nav_cart_count {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    font-size: 14px;
+    border-radius: 11px;
+    background: red;
+    color: white;
+}
 
-.nav__logo {
-
+/* .nav__logo {
     border-radius: 50%;
     overflow: hidden;
+} */
+.nav__option {
+    display: flex;
+    align-items: center; /* Canh chỉnh các phần tử trong div theo chiều dọc */
 }
+
+.logo__cart {
+    display: flex;
+    align-items: center;
+}
+
+.nav_cart_count {
+    background-color: red; /* Màu nền cho số lượng sản phẩm */
+    color: white; /* Màu chữ cho số lượng sản phẩm */
+    border-radius: 50%; /* Bo góc cho số lượng sản phẩm để tạo hình tròn */
+    width: 20px; /* Độ rộng của số lượng sản phẩm */
+    height: 20px; /* Chiều cao của số lượng sản phẩm */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .nav__option .btn-primary {
     font-weight: bold;
 }
 
-@media screen and (max-width:1024px) {
-    .nav__menu {
-        display: none;
+.nav__menu hr {
+    border: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background: #ff4141;
+}
+
+@media screen and (max-width:1285px) {
+    .nav img{
+        width: 50%;
     }
 }
+
+@media screen and (max-width:1024px) {
+    .nav__menu  {
+        display: none;
+    }
+
+    .nav__option {
+        display: none;
+    }
+    .nav img{
+        width: 15%;
+        align-items: center;
+    }
+    .nav__logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+

@@ -1,7 +1,9 @@
 import "./ProductList.css"
 import { CiShoppingBasket } from "react-icons/ci";
+import dataProduct from "../../data/dataproduct"
 
 const ProductCard = (props) => {
+
   return (
     <div className="card_main">
       <img src={props.product.productImg} />

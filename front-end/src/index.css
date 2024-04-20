@@ -9,6 +9,14 @@
   font-family: 'Barlow', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  scroll-margin-top: 4rem;
+}
+
 :root {
   --primary-hue: 270;
   --black-lightness: 15%;
@@ -114,6 +122,7 @@ h6 {
   cursor: pointer;
 }
 
+
 .btn:hover {
   background-color: transparent;
   border-color: var(--color-light);
@@ -129,11 +138,14 @@ h6 {
   background: var(--color-primary);
   /* color: white; */
 }
+.btn.primary:active {
+  background: #343232;
+}
 
 .btn.primary:hover {
-  background: var(--color-white);
+  background: #fff;
   border-color: var(--color-dark);
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .btn.sm {
