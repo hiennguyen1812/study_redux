@@ -1,9 +1,11 @@
 
 .navbar {
     background: var(--color-primary);
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 9;
+    display: flex;
+    justify-content: space-around;
 } 
 
 /* nav {
@@ -19,21 +21,27 @@
     height: 5rem;
     background: var(--color-primary);
 } */
-
-.nav__logo img {
-    width: 35%;
-}
-
 .nav__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
+    gap: 70px;
 }
+
+.nav__logo img {
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 
 .nav__menu {
     display: flex;
-    gap: 3.5rem;
+    gap: 50px;
+    list-style: none;
+    transition: all 0.3s ease;
 } 
 
 .nav__option {
@@ -74,6 +82,7 @@
     border-radius: 50%; /* Bo góc cho số lượng sản phẩm để tạo hình tròn */
     width: 20px; /* Độ rộng của số lượng sản phẩm */
     height: 20px; /* Chiều cao của số lượng sản phẩm */
+    margin-left: -12px;
     display: flex;
     justify-content: center;
     align-items: center;

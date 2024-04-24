@@ -6,6 +6,8 @@ import Login from "./Pages/Login";
 import Shop from "./Pages/Shop";
 import ProductList from "./container/Product/ProductList";
 import ShopCategory from "./Pages/ShopCategory";
+import Cart from "./Pages/Cart";
+
 
 function App() {
   return (
@@ -13,14 +15,16 @@ function App() {
         <Navbar />
         <Sidebar />
         <Routes>
-          <Route path="/" element={<ProductList />} />
-          <Route path="/about" element={<ShopCategory category="about" />} />
-          <Route path="/service" element={<ShopCategory category="service"  />} />
-          <Route path="/sneaker" element={<ShopCategory category="sneaker"  />} />
-          <Route path="/clothes" element={<ShopCategory category="clothes"  />} />
-          <Route path="/contact" element={<ShopCategory category="contact"  />} />
-          <Route path="/info" element={<InforCard />} />
+        <Route path="/" element={<Shop />} />
+          <Route path="#sneaker" element={<ProductList />} />
+          <Route path="#about" element={<ShopCategory category="about" />} />
+          <Route path="#service" element={<ShopCategory category="service"  />} />
+          <Route path="#sneaker" element={<ShopCategory category="sneaker"  />} />
+          <Route path="#clothes" element={<ShopCategory category="clothes"  />} />
+          <Route path="#contact" element={<ShopCategory category="contact"  />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/info" element={<InforCard />} />
           {/* Add more routes here */}
         </Routes>
     </div>

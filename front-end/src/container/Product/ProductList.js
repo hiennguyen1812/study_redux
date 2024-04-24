@@ -6,7 +6,7 @@ import "./ProductList.css"
 
 const ProductList = () => {
     return (
-        <>
+        <section id="sneaker">
         <h1 className="product__title">Sneakers</h1>
         <div className="container product_container">
             {dataProduct.map((product) => (
@@ -15,7 +15,7 @@ const ProductList = () => {
                 </Card>
             ))}
         </div>
-            </>
+            </section>
     )
 }
 
