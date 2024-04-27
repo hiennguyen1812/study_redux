@@ -1,4 +1,4 @@
-import Card from "../../components/Card"
+import Card from "../../UI/Card";
 import dataProduct from "../../data/dataproduct"
 import ProductCard from "./ProductCard"
 

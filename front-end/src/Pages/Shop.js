@@ -1,6 +1,7 @@
 import React from 'react'
+import Clothes from '../components/Clothes/Clothes'
 import Hello from '../components/Hero/Hello'
-import ProductList from '../container/Product/ProductList'
+import ProductList from '../components/Product/ProductList'
 import InforCard from '../InforCard.js/InforCard'
 
 export const Shop = () => {
@@ -8,6 +9,7 @@ export const Shop = () => {
     <div>
       <Hello />
       <ProductList />
+      <Clothes />
       <InforCard />
     </div>
   )

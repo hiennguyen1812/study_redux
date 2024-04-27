@@ -4,7 +4,7 @@ import Navbar from "./container/NavBar/Navbar";
 import InforCard from "./InforCard.js/InforCard";
 import Login from "./Pages/Login";
 import Shop from "./Pages/Shop";
-import ProductList from "./container/Product/ProductList";
+import ProductList from "./components/Product/ProductList";
 import ShopCategory from "./Pages/ShopCategory";
 import Cart from "./Pages/Cart";
 

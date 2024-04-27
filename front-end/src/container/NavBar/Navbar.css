@@ -1,6 +1,6 @@
 
 .navbar {
-    background: var(--color-primary);
+    background: #e1ffea22;
     position: sticky;
     top: 0;
     z-index: 9;

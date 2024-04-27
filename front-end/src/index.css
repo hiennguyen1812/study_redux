@@ -56,12 +56,12 @@ body {
 
 section {
   padding: 10rem 0;
-  background: var(--color-primary);
+  background: var(--color-white);
   transition: var(--transition);
 }
 
 section:nth-child(even) {
-  background:  hsl(0, 5%, 94%);
+  background:  #fff;
 }
 
 section > h2 {
