@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
 
-.product_container img {
-    width: 70%;
+.card_main img {
+    width: 350px;
 }
 
 .product_container h2 {

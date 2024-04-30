@@ -1,11 +1,11 @@
-.clothes {
+.new-deals {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.clothes-item {
+.deals {
     margin-top: 3.5rem;
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
@@ -13,13 +13,13 @@
     gap: 50px;
 }
 
-.clothes h1 {
+.new-deals h1 {
     color: #171717;
     font: 50px;
     font-weight: 600;
 }
 
-.clothes hr {
+.new-deals hr {
     width: 200px;
     height: 6px;
     border-radius: 10px;

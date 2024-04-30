@@ -1,22 +1,22 @@
-import React from 'react'
-import "./Clothes.css"
-import dataClothes from '../../data/dataClothes'
-import Item from '../../UI/Item'
+import React from "react";
+import "./Clothes.css";
+import dataClothes from "../../data/dataClothes";
+import Item from "../../UI/Item";
 
 function Clothes() {
   return (
-    <div className='clothes'>
-        <h1>CLOTHES IN COLLECTION</h1>
+    <section id="clothes">
+      <div className="clothes">
+        <h1>CLOTHES</h1>
         <hr />
-        <div className='clothes-item'>
-            {dataClothes.map((item,i) => {
-                return <Item key={i} id={item.id} 
-                item={item}
-                />
-            })}
+        <div className="clothes-item">
+          {dataClothes.map((item, i) => {
+            return <Item key={i} id={item.id} color={item.color} item={item} />;
+          })}
         </div>
-    </div>
-  )
+      </div>
+    </section>
+  );
 }
 
-export default Clothes
+export default Clothes;

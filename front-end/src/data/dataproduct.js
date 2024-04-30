@@ -1,59 +1,59 @@
 const dataProduct = [
     {
         id: 1,
-        name: "Nike Dunk Low Valentine's Day (2024)",
-        productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Valentines-Day-2024-Womens-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1706312749&q=57",
-        payment: "$101"
+        name: "Jordan 1 Chicago Lost and Found",
+        productImg: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined/Images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined/Lv2/img01.jpg?fm=webp&auto=compress&w=576&dpr=2&updated_at=1665692308&h=384&q=60",
+        payment: "$241"
     },
     {
         id: 2,
-        name: "Nike Dunk Low Retro",
-        productImg: " https://images.stockx.com/images/Nike-Dunk-Low-Retro-Red-Stardust-Pure-Platinum.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1706092838&q=57",
-        payment: "$80"
+        name: "Jordan 1 Mid Light Smoke Grey",
+        productImg: "https://images.stockx.com/360/Air-Jordan-1-Mid-Light-Smoke-Grey/Images/Air-Jordan-1-Mid-Light-Smoke-Grey/Lv2/img01.jpg?fm=webp&auto=compress&w=576&dpr=2&updated_at=1635255671&h=384&q=60",
+        payment: "$86"
     },
     {
         id: 3,
-        name: "Nike Dunk Low Retro Coconut Milk",
-        productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Retro-Coconut-Milk-W-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1667401520&q=57",
-        payment: "$66"
+        name: "Jordan 1 Mid White Metallic Gold Obsidian",
+        productImg: "https://images.stockx.com/360/Air-Jordan-1-Mid-White-Metallic-Gold-Obsidian/Images/Air-Jordan-1-Mid-White-Metallic-Gold-Obsidian/Lv2/img01.jpg?fm=webp&auto=compress&w=576&dpr=2&updated_at=1635270903&h=384&q=60",
+        payment: "$278"
     },
     {
         id: 4,
-        name: "Nike Dunk Low Retro Green Glow",
-        productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Retro-Green-Glow-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1672818180&q=57",
-        payment: "$77"
+        name: "Jordan 1 Mid Laser Blue",
+        productImg: "https://images.stockx.com/360/Air-Jordan-1-Mid-Laser-Blue/Images/Air-Jordan-1-Mid-Laser-Blue/Lv2/img01.jpg?fm=webp&auto=compress&w=576&dpr=2&updated_at=1634936804&h=384&q=60",
+        payment: "$256"
     },
 
     {
         id: 5,
-        name: "Nike Dunk Low Retro White Grey",
-        productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Grey-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1666679170&q=57",
-        payment: "$134"
+        name: "Jordan 1 Mid Black Chile Red White",
+        productImg: "https://images.stockx.com/360/Air-Jordan-1-Mid-Black-Chile-Red-White/Images/Air-Jordan-1-Mid-Black-Chile-Red-White/Lv2/img01.jpg?fm=webp&auto=compress&w=576&dpr=2&updated_at=1635167434&h=384&q=60",
+        payment: "$123"
     },
     {
         id: 6,
-        name: "Nike Dunk Low Polar Blue",
-        productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Polar-Blue-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1694716677&q=57",
-        payment: "$108"
+        name: "Jordan 1 Mid University Gold",
+        productImg: "https://images.stockx.com/360/Air-Jordan-1-Mid-University-Gold/Images/Air-Jordan-1-Mid-University-Gold/Lv2/img01.jpg?fm=webp&auto=compress&w=576&dpr=2&updated_at=1635189730&h=384&q=60",
+        payment: "$77"
     },
     {
         id: 7,
-        name: "Nike Dunk Low Clear Jade",
-        productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Clear-Jade-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1690294898&q=57",
-        payment: "$59"
+        name: "Jordan 1 Mid Signal Blue",
+        productImg: "https://images.stockx.com/360/Air-Jordan-1-Mid-Signal-Blue/Images/Air-Jordan-1-Mid-Signal-Blue/Lv2/img01.jpg?fm=webp&auto=compress&w=576&dpr=2&updated_at=1635186104&h=384&q=60",
+        payment: "$101"
     },
     {
         id: 8,
-        name: "Nike Dunk Low Dark Marina Blue",
-        productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Dark-Marina-Blue-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1644311937&q=57",
-        payment: "$200"
+        name: "Jordan 1 Mid French Blue Fire Red",
+        productImg: "https://images.stockx.com/360/Air-Jordan-1-Mid-French-Blue-Fire-Red/Images/Air-Jordan-1-Mid-French-Blue-Fire-Red/Lv2/img01.jpg?fm=webp&auto=compress&w=576&dpr=2&updated_at=1666164235&h=384&q=60",
+        payment: "$169"
     },
-    // {
-    //     id: 9,
-    //     name: "Nike Dunk Low Gorge Green",
-    //     productImg: "https://images.stockx.com/images/Nike-Dunk-Low-Gorge-Green-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1671023702&q=57",
-    //     payment: "$72"
-    // },
+    {
+        id: 9,
+        name: "Jordan 1 Mid White Black Gym Red",
+        productImg: "https://images.stockx.com/360/Air-Jordan-1-Mid-White-Black-Gym-Red/Images/Air-Jordan-1-Mid-White-Black-Gym-Red/Lv2/img01.jpg?fm=webp&auto=compress&w=480&dpr=2&updated_at=1635275385&h=320&q=60",
+        payment: "$99"
+    },
 
    
 ]

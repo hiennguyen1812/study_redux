@@ -1,6 +1,6 @@
 
 
-const dataClothes = [
+const dataDeals = [
     {
         // old_price
         id: 1,
@@ -79,4 +79,4 @@ const dataClothes = [
    
 ]
 
-export default dataClothes
+export default dataDeals
